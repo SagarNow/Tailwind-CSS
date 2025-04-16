@@ -31,7 +31,7 @@ function App() {
 <div className=' font-black bg-amber-300'> <h1 className=' p-5 ml-140'>font checkk </h1></div>
 <hr />
 
-
+<div className='bg-green-500 opacity-50'> <h2> updated git repo </h2></div>
 
 
 
