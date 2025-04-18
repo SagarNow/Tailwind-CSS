@@ -33,7 +33,7 @@ function App() {
 
 <div className='bg-green-500 opacity-50'> <h2> updated git repo </h2></div>
 
-
+<div className='hover:bg-green-500 bg-black text-white  opacity-50 rounded-2xl px-2 py-4  flex justify-center items-center '> hy bro </div>
 
 
     </>
