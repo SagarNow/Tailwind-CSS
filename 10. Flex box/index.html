@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex box</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-gradient-to-r from-[#0f2027] via-[#203a43] to-[#2c5364]">
+    <!-- display flex : turn a container into a flexbox layout. ✅ Arrange items side by side easily , -->
+    <div class=" border-2 p-5 m-10 gray-200 "> 
+        <ul class="flex">
+            
+            <li class=" bg-gray-600 p-5 m-5">1</li>
+            <li class=" bg-gray-600 p-5 m-5">2</li>
+            <li class=" bg-gray-600 p-5 m-5">3</li>
+            <li class=" bg-gray-600 p-5 m-5">4</li>
+            <li class=" bg-gray-600 p-5 m-5">5</li>
+        </ul>
+
+     
+    </div>
+    <!-- flex direction : ✅ Control the direction of flex items ✅ -->
+    <div class=" border-2 p-5 m-10 gray-200 ">
+        <ul class="flex flex-col">
+            
+            <li class=" bg-gray-600 p-5 m-5">1</li>
+            <li class=" bg-gray-600 p-5 m-5">2</li>
+            <li class=" bg-gray-600 p-5 m-5">3</li>
+            <li class=" bg-gray-600 p-5 m-5">4</li>
+            <li class=" bg-gray-600 p-5 m-5">5</li>
+        </ul>
+    </div>
+    <br>
+    <!------------------- justify content --------------------->
+    <!-- end -->
+    <div class=" border-2 p-5 m-10 gray-200 ">
+        <ul class="flex justify-end">
+            
+            <li class=" bg-gray-600 p-5 m-5">1</li>
+            <li class=" bg-gray-600 p-5 m-5">2</li>
+            <li class=" bg-gray-600 p-5 m-5">3</li>
+            <li class=" bg-gray-600 p-5 m-5">4</li>
+            <li class=" bg-gray-600 p-5 m-5">5</li>
+        </ul>
+    </div>
+    <br>
+    <!-- center -->
+    <div class=" border-2 p-5 m-10 gray-200 ">
+        <ul class="flex justify-center">
+            
+            <li class=" bg-gray-600 p-5 m-5">1</li>
+            <li class=" bg-gray-600 p-5 m-5">2</li>
+            <li class=" bg-gray-600 p-5 m-5">3</li>
+            <li class=" bg-gray-600 p-5 m-5">4</li>
+            <li class=" bg-gray-600 p-5 m-5">5</li>
+        </ul>
+    </div>
+
+
+    <br>
+    <!-- order: order controls the position of flex item -->
+    <div class=" border-2 p-5 m-10 gray-200 ">
+        <ul class="flex">
+            
+            <li class=" bg-gray-600 p-5 m-5 order-5">1</li>
+            <li class=" bg-gray-600 p-5 m-5 order-4">2</li>
+            <li class=" bg-gray-600 p-5 m-5 order-3">3</li>
+            <li class=" bg-gray-600 p-5 m-5 order-2">4</li>
+            <li class=" bg-gray-600 p-5 m-5 order-1">5</li>
+        </ul>
+    </div>
+    <br>
+    <!-- shrink and grow -->
+    <div class=" border-2 p-5 m-10 gray-200 ">
+        <ul class="flex">
+             <!-- flex-none: Prevent item from growing or shrinking -->
+            <li class=" bg-gray-600 p-5 m-5 flex-none">1</li>
+             <!-- flex-initial:  Allow item to shrink but not grow, taking into account its initial size  -->
+            <li class=" bg-gray-600 p-5 m-5 flex-initial">2</li>
+             <!-- flex-grow: Allow item to grow and shrink as needed -->
+            <li class=" bg-gray-600 p-5 m-5 flex-grow">3</li>
+             <!-- flex-shrink: Allow item to shrink but not grow -->
+            <li class=" bg-gray-600 p-5 m-5 flex-shrink">4</li>
+             <!-- flex: Allow item to grow and shrink as needed-->
+            <li class=" bg-gray-600 p-5 m-5 flex-1">5</li>
+        </ul>
+    </div>
+                
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class=" min-h-screen mx-auto bg-gradient-to-r from-[#0f2027] via-[#203a43] to-[#2c5364] p-5 justify-center items-center flex flex-col gap-5" >
+
+            <!-- noraml  -->
+<button class="p-5 bg-green-400 text-black hover:bg-red-800 rounded-3xl"> Noraml Click</button>
+<br>
+            <!-- transiction ------------------------------->
+            <!-- duration:- duration of transition -->
+            <!-- ease-in-out:- ease-in-out of transition -->
+            <!-- delay:- delay of transition -->
+<button class=" flex p-5 bg-green-400 text-black  rounded-3xl
+                 transiction duration-300 hover:bg-red-800 ease-in-out  ">Button with transiction</button>
+<br>
+                <!-- transform ------------------------------->
+                <!-- scale:- scale of transform -->
+                <!-- rotate:- rotate of transform -->
+                <!-- translate:- translate of transform means it will move -->
+                <!-- skew:- skew of transform -->
+<button class=" flex p-5 bg-green-400 text-black  rounded-3xl
+                 transiction duration-300 hover:bg-red-800 ease-in-out  
+                 transform hover:scale-110 hover:translate-y-1 ">Button with transform</button>
+<!-- animation -->
+ <div class="flex justify-center flex-col gap-5">
+   <div class="w-20 h-20 flex items-center justify-center bg-teal-400 animate-spin">📵</div>
+   <div class="w-20 h-20 flex items-center justify-center bg-teal-400 animate-pulse">pulse</div>
+   <div class="w-20 h-20 flex items-center justify-center bg-teal-400 animate-bounce">bounce</div>
+   <div class="w-20 h-20 flex items-center justify-center bg-teal-400 animate-ping">ping</div>
+   
+ </div>
+</body>
+</html>
